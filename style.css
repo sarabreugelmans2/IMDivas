@@ -319,11 +319,55 @@ table {
     margin-right: 1em;
 }
 
-
 .el{
     display: none;
 }
 
+.img{
+    align-content: center;
+    align-self:center;
+}
+
+.img img{
+    height:40%;
+   width:40%;
+}
+
+.intro{
+    display:block;
+    align-content: center;
+    text-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+
+}
+.intro-button{
+    align-self:center;
+}
+
+.intro-h{
+    display:flex;
+    flex-direction: column;
+}
+.intro-h h2{
+    align-self: center;
+}
+
+.know{
+    padding-left:  3em;
+    padding-right:3em;
+    justify-content: center;
+}
+
+.started{
+    padding-left:  3em;
+    padding-right:3em;
+}
+
+.imd{
+    padding-left:  3em;
+    padding-right:3em;
+}
 
 
 }
