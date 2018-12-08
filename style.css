@@ -312,9 +312,19 @@ table {
 
 
 /* FIRST GRID */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:9pt;
+    background-image: url(img/background_mobile.svg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
 .introContainer, .aboutContainer, .startedContainer{
     display:block;
     height: 100%;
+    margin-top: 0em;
+    margin-bottom: 0em;
     margin-left: 1em;
     margin-right: 1em;
 }
@@ -324,11 +334,13 @@ table {
 }
 
 .img{
+    display:block;
     align-content: center;
     align-self:center;
 }
 
 .img img{
+    align-self: center;
     height:40%;
    width:40%;
 }
@@ -337,8 +349,8 @@ table {
     display:block;
     align-content: center;
     text-align: center;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
 
 }
 .intro-button{
@@ -354,19 +366,20 @@ table {
 }
 
 .know{
-    padding-left:  3em;
-    padding-right:3em;
+    padding-left:  1em;
+    padding-right:1em;
     justify-content: center;
 }
 
 .started{
-    padding-left:  3em;
-    padding-right:3em;
+    padding-left:  1em;
+    padding-right:1em;
 }
 
 .imd{
-    padding-left:  3em;
-    padding-right:3em;
+    
+    padding-left:  2em;
+    padding-right:2em;
 }
 
 
