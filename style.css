@@ -315,7 +315,7 @@ table {
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:9pt;
-    background-image: url(img/background_mobile.svg);
+    /*background-image: url(img/background_mobile.svg);*/
     background-repeat: repeat-y;
     background-size: 100%;
 }
@@ -372,8 +372,19 @@ body{
 }
 
 .started{
-    padding-left:  1em;
-    padding-right:1em;
+    padding-left:  2em;
+    padding-right:2em;
+    background-image: url(img/formblop.svg);
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position-x: -1em;
+    padding:2em;
+    padding-bottom: 6em;
+    padding-top: 10em;
+}
+
+.started-form input{
+    
 }
 
 .imd{
