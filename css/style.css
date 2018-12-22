@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:13px;
+    line-height:1.5em;
+    width:100%;
+    overflow-x: hidden;
+}
+/* Intro */
+#logo {
+    width:15%;
+    position: absolute;
+    top:20px;
+    left:5%;
+}
+#totebag {
+    width:50%;
+    margin:0px 25%;
+}
+h1, h2, .intro p {text-align:center;}
+h1 {
+    font-size:36px;
+    margin-top:20px;
+}
+h2 {
+    font-size:20px;
+    margin-top:25px;
+    margin-bottom:30px;
+}
+p, ul, h3 {margin:20px 10%;}
+a {
+    text-decoration: none;
+    color:#000;
+}
+.button {
+    display: block;
+    text-align:center;
+    width:50%;
+    margin:10px 25% 30px 25%;
+    border:1px solid #000;
+    border-radius:0.8em;
+    padding:10px 20px;
+}
+.intro {
+    background-image:url(../img/pinkEl1.svg), url(../img/yellowEl1.svg),url(../img/roseEl1.svg),url(../img/blueEl1.svg);
+    background-repeat:no-repeat;
+    background-size:400px, 448px, 400px, 300px;
+    background-position:right -270px top -100px, left -300px top 220px, left -300px top 540px, right -210px top 600px;
+    padding-bottom:40px;
+}
+
+/* Who */
+h3 {font-size:20px;}
+.who {
+    background-image:url(../img/roseEl2.svg), url(../img/yellowEl2.svg);
+    background-repeat:no-repeat;
+    background-size:160px, 800px;
+    background-position: right -110px top 350px, right -740px top -30px;
+    padding-bottom:260px;
+}
+
+/* Info */
+.info {
+    position:relative;
+    margin-top:-210px;
+    background-image:url(../img/pinkEl3.svg);
+    background-repeat: no-repeat;
+    background-size:200px;
+    background-position:left -120px top 450px;
+    padding-bottom:170px
+}
+.info h3 {
+    text-align:left;
+    margin:20px 10%;
+}
+li {margin-bottom:15px;}
+.info .button {
+    width:70%;
+    margin:10px 15% 30px 15%;
+}
+
+/* Form */
+input, label {
+    display:block;
+    margin:10px 10%;
+}
+label {
+    font-weight:bold;
+}
+input {
+    width:80%;
+    line-height:30px;
+    border:none;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius:0.5em;
+    margin-bottom:20px;
+}
+input[type='submit']{
+    line-height:20px;
+    background-color:rgba(255, 255, 255, 0);
+    margin-top:40px;
+}
+.subscribe {
+    position:relative;
+    background-image:url(../img/blueEl3.svg);
+    background-repeat: no-repeat;
+    background-size:650px;
+    background-position:left -150px top 0px;
+    padding-top:80px;
+    padding-bottom:80px;
+    margin-top:-110px;
+}
+
+/* About IMD */
+.about {
+    background-image: url(../img/roseEl3.svg);
+    background-repeat:no-repeat;
+    background-size:300px;
+    background-position:right -200px bottom;
+    padding-bottom:50px;
+}
+.about .button {
+    margin:10px 30% 0px 30%;
+    width:40%;
+}
+
+
+
+
+
+
+
+
+
+
+
