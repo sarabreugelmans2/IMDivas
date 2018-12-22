@@ -67,7 +67,10 @@ a {
 }
 
 /* Who */
-h3 {font-size:20px;}
+h3 {
+    font-family: subtitleFont;
+    font-size:20px;
+}
 .who {
     background-image:url(../img/roseEl2.svg), url(../img/yellowEl2.svg);
     background-repeat:no-repeat;
@@ -99,9 +102,7 @@ input, label {
     display:block;
     margin:10px 10%;
 }
-label {
-    font-weight:bold;
-}
+label {font-weight:bold;}
 input {
     width:80%;
     line-height:30px;
@@ -380,9 +381,7 @@ input[type='submit']{
     }
 }
 @media screen and (min-width:1500px) {
-    .who {
-        background-size:200px, 650px;
-    }
+    .who {background-size:200px, 650px;}
     .who p {margin:20px 40% 40px 520px;}
     .info h3, .info ul {margin:20px 65% 20px 170px;}
     .subscribe {
