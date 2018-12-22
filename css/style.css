@@ -2,8 +2,20 @@
     box-sizing: border-box;
     margin:0;
 }
+@font-face {
+  font-family: titleFont;
+  src: url(Futurica-ExtraBoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: subtitleFont;
+  src: url(FuturicaBs-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family:tekst;
+    src: url(proxima_nova_reg.ttf) format('truetype');
+}
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: tekst;
     font-size:13px;
     line-height:1.5em;
     width:100%;
@@ -22,10 +34,12 @@ body{
 }
 h1, h2, .intro p {text-align:center;}
 h1 {
+    font-family: titleFont;
     font-size:36px;
     margin-top:20px;
 }
 h2 {
+    font-family: subtitleFont;
     font-size:20px;
     margin-top:25px;
     margin-bottom:30px;
@@ -330,7 +344,7 @@ input[type='submit']{
     }
     h2 {
         font-size:26px;
-        padding-left:55%;
+        padding-left:60%;
     }
     .intro p {margin:20px 15% 20px 50%;}
     p {
