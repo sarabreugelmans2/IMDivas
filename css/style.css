@@ -61,7 +61,6 @@ h3 {font-size:20px;}
     background-position: right -110px top 350px, right -740px top -30px;
     padding-bottom:260px;
 }
-
 /* Info */
 .info {
     position:relative;
@@ -70,7 +69,7 @@ h3 {font-size:20px;}
     background-repeat: no-repeat;
     background-size:200px;
     background-position:left -120px top 450px;
-    padding-bottom:170px
+    padding-bottom:170px;
 }
 .info h3 {
     text-align:left;
@@ -81,7 +80,6 @@ li {margin-bottom:15px;}
     width:70%;
     margin:10px 15% 30px 15%;
 }
-
 /* Form */
 input, label {
     display:block;
@@ -113,7 +111,6 @@ input[type='submit']{
     padding-bottom:80px;
     margin-top:-110px;
 }
-
 /* About IMD */
 .about {
     background-image: url(../img/roseEl3.svg);
@@ -127,9 +124,260 @@ input[type='submit']{
     width:40%;
 }
 
+/* --------------MEDIAQUERIES -------------- */
+@media screen and (min-width:480px) {
+    /* Intro */
+    #logo {width:10%;}
+    #totebag {
+        width:40%;
+        margin:0px 30%;
+    }
+    .intro {padding-bottom:80px;}
+    /* Who */
+    .who {padding-bottom:300px;
+    }
+    /* Info */
+    .info {
+        margin-top:-230px;
+        padding-bottom:210px;
+    }
+    /* Form */
+    .subscribe {
+        background-size:750px;
+        padding-top:140px;
+        padding-bottom:100px;
+        margin-top:-160px;
+    }
+}
 
-
-
+@media screen and (min-width:768px) {
+    /* Intro */
+    #logo {
+        width:8%;
+        left:30px;
+    }
+    .intro {
+        background-size:400px, 480px, 500px, 300px;
+        background-position:right -150px top -50px, left -280px top 300px, left -360px top 640px, right -210px top 800px;
+        padding-bottom:70px;
+    }
+    p, ul, h3 {margin:20px 20%;}
+    h3, .info h3 {margin:20px 20% 40px 20%;}
+    .button {
+        width:30%;
+        margin:10px 35% 30px 35%;
+    }
+    /* Who */
+    .who {
+        background-size:180px, 850px;
+        background-position: right -90px top 400px, right -740px top -30px;
+        padding-bottom:400px;
+    }
+    /* Info */
+    .info {
+        background-size:250px;
+        background-position:left -100px top 380px;
+        padding-bottom:210px;
+        margin-top:-300px;
+    }
+    .info .button {
+        width:40%;
+        margin:20px 30% 30px 30%;
+    }
+    /* Form */
+    .subscribe {
+        background-size:800px;
+        background-position:left -20px top 0px;
+        padding-top:180px;
+        padding-bottom:120px;
+        margin-top:-190px;
+    }
+    input, label {margin:10px 20%;}
+    input {width:50%;}
+    .about {background-size:350px;}
+    .about .button {
+        margin:10px 35% 0px 35%;
+        width:30%;
+    }
+}
+@media screen and (min-width:1024px) {
+    /* Intro */
+    #logo {width:5%;}
+    #totebag {
+        width:30%;
+        margin:0px 55% 0px 15%;
+        position: absolute;
+        top:0;
+    }
+    .intro {
+        background-size:600px, 230px, 500px, 200px;
+        background-position:right -100px top -250px, left -50px top 100px, left -300px top 260px, right -20px top 600px;
+        padding-bottom:110px;
+        margin-top:-30px;
+    }
+    h1 {
+        padding-top:300px;
+        padding-left:35%;
+    }
+    h2 {padding-left:45%;}
+    .intro p {margin:20px 10% 20px 50%;}
+    .intro .button {margin:20px 20% 20px 60%;}
+    .button {width:20%;}
+    /* Who */
+    .who {
+        background-image:url(../img/blueEl1.svg), url(../img/yellowEl2.svg);
+        background-size:200px, 600px;
+        background-position:left 200px top, left 300px top;
+        padding-bottom:420px;
+    }
+    .who h3 {
+        margin:0px 10% 30px 420px;
+        padding-top:120px;
+    }
+    .who p {margin:20px 20% 40px 420px;}
+    /* Info */
+    .info {
+        background-image:url(../img/roseEl2.svg), url(../img/pinkEl3.svg);
+        background-size:600px, 230px;
+        background-position:left 30px top , left 500px bottom 70px;
+        padding-bottom:210px;
+        padding-top:100px;
+        margin-top:-300px;
+    }
+    .info h3 {margin:20px 20% 30px 170px;}
+    .info ul {margin:20px 45% 20px 170px;}
+    .info .button {
+        width:26%;
+        margin:20px 10% 30px 210px;
+    }
+    /* Form */
+    .subscribe {
+        background-image:url(../img/yellowEl3.svg), url(../img/blueEl3.svg), url(../img/yellowEl3.svg);
+        background-size:220px, 700px, 200px;
+        background-position:right bottom, right -10px top, left -100px top 300px;
+        padding-top:140px;
+        padding-bottom:80px;
+        margin-top:-130px;
+        padding-left:380px;
+    }
+    /* About */
+    .about {
+        background-image: url(../img/pinkEl3.svg), url(../img/roseEl3.svg);
+        background-size:500px,500px;
+        background-position:left 100px top, left 250px bottom -200px;
+        padding-bottom:200px;
+        padding-top:100px;
+    }
+    .about h3 {margin:0px 10% 30px 200px;}
+    .about p {margin:0px 45% 30px 200px;}
+    .about .button {
+        margin:10px 35% 0px 200px;
+        width:15%;
+    }
+}
+@media screen and (min-width:1224px) {
+    /* Intro */
+    #logo {
+        width:4%;
+        left:120px;
+        top:40px;
+    }
+    #totebag {
+        width:24%;
+        margin:0px 66% 0px 20%;
+    }
+    .intro {
+        background-size:600px, 230px, 500px, 200px;
+        background-position:right -50px top -240px, left -50px top 140px, left -260px top 280px, right -20px top 560px;
+        padding-bottom:110px;
+        margin-top:-30px;
+    }
+    /* Who */
+    h3 {font-size:24px;}
+    .who {background-position:left 300px top, left 400px top;}
+    .who h3 {
+        margin:0px 10% 30px 520px;
+        padding-top:120px;
+    }
+    .who p {margin:20px 25% 40px 520px;}
+    /* Info */
+    .info {
+        background-position:left 50px top , left 550px bottom 80px;
+        margin-top:-400px;
+    }
+    .info h3 {margin:20px 20% 30px 200px;}
+    .info ul {margin:20px 55% 20px 200px;}
+    .info .button {
+        width:20%;
+        margin:20px 10% 30px 220px;
+    }
+    /* Form */
+    .subscribe {
+        margin-top:-200px;
+        padding-left:580px;
+        background-size:220px, 700px, 300px;
+    }
+    /* About */
+    .about p {margin:0px 55% 30px 200px;}
+}
+@media screen and (min-width:1400px) {
+    /* Intro */
+    h1, h2, .intro p {text-align:left;}
+    h1 {
+        font-size:48px;
+        padding-left:50%;
+        margin-bottom:30px;
+    }
+    h2 {
+        font-size:26px;
+        padding-left:55%;
+    }
+    .intro p {margin:20px 15% 20px 50%;}
+    p {
+        font-size:14px;
+        line-height:1.6em;
+    }
+    .intro .button {margin:20px 25% 20px 60%;}
+    .button {width:15%;}
+    /* Who */
+    .who p {margin:20px 35% 40px 520px;}
+    /* Info */
+    .info h3, .info ul {margin:20px 60% 20px 170px;}
+    .info .button {
+        width:18%;
+        margin:20px 10% 30px 220px;
+    }
+    /* Form */
+    .subscribe {
+        padding-left:600px;
+        background-size:220px, 750px, 300px;
+        background-position:right bottom, right 50px top, left -100px top 300px;
+        padding-bottom:90px;
+    }
+    /* About */
+    .about{
+        background-size:550px,500px;
+        background-position:left 150px top, left 250px bottom -200px;
+    }
+    .about h3, .about p {margin:0px 55% 30px 260px;}
+    .about .button {
+        margin:10px 35% 0px 260px;
+        width:10%;
+    }
+}
+@media screen and (min-width:1500px) {
+    .who {
+        background-size:200px, 650px;
+    }
+    .who p {margin:20px 40% 40px 520px;}
+    .info h3, .info ul {margin:20px 65% 20px 170px;}
+    .subscribe {
+        padding-left:700px;
+        background-size:220px, 800px, 300px;
+        padding-bottom:140px;
+    }
+    .about h3, .about p {margin:0px 60% 30px 260px;}
+}
 
 
 
