@@ -88,10 +88,36 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
     <a href="#design" class="button">Schrijf je in voor de workshop</a>
 </section>
  
+<?php
+//appearantly cannot send due to needing a connection to an smtp server to send
+
+//if "email" variable is filled out, send email
+  if (isset($_GET['email']))  {
+  
+  //Email information
+  $admin_email = "r0614024@student.thomasmore.be";//change this to admin somebody else when in production
+  $email = $_GET['email'];
+  $subject = "Nieuwe_inschrijving_IMDivas_Workshop";
+  $comment = $_GET['firstName'] ." " . $_GET['lastName'] . "\n" . $email;
+  
+  //send email
+  if(mail($admin_email,$subject,$comment,"From ". $email)){
+    echo  "<h3>Uw inschrijving is verzonden!</h3>";
+  };
+  
+  //Email response
+  
+  
+  }
+  
+  //if "email" variable is not filled out, display the form
+  else  {
+?>
+
 <section class="subscribe" id="design">
     <h3>Let’s get started!</h3>
     <p>Schrijf je hier in voor onze design workshop en neem je eigen gepersonaliseerde tote bag mee naar huis. </p>
-    <form action="mailto:sara.breugelmans@student.thomasmore.be" method="POST" enctype="text/plain" class="started-form">
+    <form action="" method="GET" enctype="text/plain" class="started-form">
         <label for="firstName">Voornaam</label>
         <input type="text" name="firstName">
         <label for="lastName">Achternaam</label>
@@ -101,6 +127,8 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
         <input type="submit" value="Inschrijven" class="button">
     </form>
 </section>
+  <?php }; ?>
+
  
 <section class="about">
     <h3>Over IMD</h3>
